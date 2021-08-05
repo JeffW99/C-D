@@ -1,1 +1,1 @@
-darknet detector demo obj.data cfg/yolov4-cmd-test.cfg models/yolov4-cmd_best.weights test.mp4 -i 1
+darknet detector demo obj.data cfg/yolov4-cmd-test.cfg models/yolov4-cmd_best.weights cmd.mp4 -i 1 -thresh 0.80

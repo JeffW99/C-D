@@ -1,0 +1,4 @@
+bad.list
+data/yolo-animal-detection-small
+*.weights
+models/yolov4.conv.137

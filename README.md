@@ -20,3 +20,13 @@ Docker images for Darknet Yolo v4, v3 and v2. AlexeyAB/darknet
 All of Darknet's images are based on Ubuntu 20.04. gpu- images are based on 11.2.2-cudnn8-ubuntu 20.04
 https://github.com/daisukekobayashi/darknet-docker
 ```
+## how to train
+```
+./train_yolov4.sh
+```
+
+## how to test
+```
+1.run "xhost +" in host machine
+2. run ./test_yolov4.sh in darknet container
+```
